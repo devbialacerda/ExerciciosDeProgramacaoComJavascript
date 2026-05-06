@@ -1,0 +1,11 @@
+alert("Eleitores porcentagem");
+var total_eleitores = parseInt(prompt("Digite o total de eleitores"));
+var votos_brancos = parseInt(prompt("Digite o total de votos brancos"));
+var votos_nulos = parseInt(prompt("Digite o total de votos nulos"));
+var votos_validos = parseInt(prompt("Digite o total de votos válidos"));
+let total_votos_brancos = (votos_brancos / total_eleitores ) * 100;
+let total_votos_nulos = (votos_nulos / total_eleitores) * 100;
+let total_votos_validos = (votos_validos / total_eleitores ) * 100;
+alert(`O valor total de votos brancos é:${total_votos_brancos} %`);
+alert(`O valor total de votos nulos é: ${total_votos_nulos} %`);
+alert(`O valor total de votos válidos é: ${total_votos_validos}%`);
